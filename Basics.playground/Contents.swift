@@ -111,3 +111,26 @@ func addTwoDigits(){
     
 }
 addTwoDigits()
+
+
+//Fuctions that take in params and return values
+func addThreeDigits(arg a:Int , arg2 b:Int, arg c:Int)->Int{
+    let d = a + b + c
+    return d
+   
+
+}
+let sum = addThreeDigits(arg: 2, arg2: 3, arg: 8)
+print("Sum of Three is: ", sum)
+
+
+//to ommit paramter and label names in the function call put underscore _ a your label
+func addThreeDigits(_ a:Int , _ b:Int, _ c:Int)->Int{
+    let d = a + b + c
+    return d
+}
+
+let addition_result = addThreeDigits(4, 7, 8)
+print("Sum of Three is: ",addition_result)
+
+
