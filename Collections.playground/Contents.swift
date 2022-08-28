@@ -75,6 +75,4 @@ for (key, value)  in myDictionary{
     print(myDictionary[key]!)
     print(value)
 }
-     
-
-
+    
